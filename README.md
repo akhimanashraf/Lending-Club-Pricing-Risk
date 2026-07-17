@@ -36,6 +36,10 @@ Lending Club assigns each loan a grade from A (safest) to G (riskiest) and charg
 - **The pricing model recognises risk but under-prices it.** Grade G is charged ~4× grade A's interest rate, yet defaults ~10.7× as often. Risk scales far faster than price.
 - **The crude comparison overstates the problem.** Comparing annual rates to lifetime default rates suggested grades B-G were all loss-making. Accounting for term and partial recovery shows B and C are in fact profitable - which materially changes the recommendation.
 
+![Interest rate vs default rate by grade](rate_vs_default.png)
+
+Both rise with grade, but not together: from A to G the interest rate roughly quadruples while the default rate rises more than tenfold. The gap between the two lines is the shortfall in compensation.
+
 ## Recommendation
 
 **Grades A-C: continue.** Profitable, though C (1.02) is thin enough that a modest downturn would flip it negative. Worth monitoring.
