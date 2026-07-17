@@ -112,3 +112,27 @@ ggplot(grade_returns, aes(x = grade, y = return_per_1, fill = return_per_1 > 1))
 
 # Save the chart to the project folder for the GitHub repo
 ggsave("return_by_grade.png", width = 8, height = 5, dpi = 300)
+
+# SUPPORTING CHART: does price keep pace with risk?
+# Both rise with grade — the question is whether they rise together.
+grade_summary %>%
+  select(grade, avg_int_rate, default_rate) %>%
+  mutate(default_rate = default_rate * 100) %>%   # both on a % scale
+  pivot_longer(cols = c(avg_int_rate, default_rate),
+               names_to = "measure", values_to = "pct") %>%
+  ggplot(aes(x = grade, y = pct, colour = measure, group = measure)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 2) +
+  scale_colour_manual(
+    values = c("avg_int_rate" = "#1565C0", "default_rate" = "#C62828"),
+    labels = c("Interest rate charged", "Default rate"),
+    name = NULL
+  ) +
+  labs(
+    title    = "Risk rises faster than the price charged for it",
+    subtitle = "Interest rate vs default rate by grade (resolved loans)",
+    x = "Loan grade", y = "Percent"
+  ) +
+  theme_minimal()
+
+ggsave("rate_vs_default.png", width = 8, height = 5, dpi = 300)
