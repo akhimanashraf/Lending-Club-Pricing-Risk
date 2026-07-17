@@ -61,4 +61,5 @@ Both rise with grade, but not together: from A to G the interest rate roughly qu
 |------|----------|
 | `analysis.R` | Cleaning and analysis, commented |
 | `return_by_grade.png` | Headline chart |
+| rate_vs_default.png | Supporting chart: rate vs default rate |
 | `README.md` | This file |
