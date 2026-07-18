@@ -46,7 +46,7 @@ Both rise with grade, but not together: from A to G the interest rate roughly qu
 
 **Grade D: fix, don't cut.** At 0.964 it is only marginally underwater. The lever is *underwriting*, not price; tighten the criteria that place borrowers into D so that stronger applicants migrate to C and the rest are declined.
 
-**Grades E-G: withdraw or restructure.** Losses of 10–15% per dollar lent are not a pricing gap, they're a product problem. Critically, **raising rates further is unlikely to help.** Higher pricing disproportionately deters the better borrowers within a risk band, leaving a worse residual pool; the default rate rises to meet the new rate (adverse selection). The remedy is selection, not price. If the segment is to be served at all, it needs a different instrument: secured lending, co-signers, or smaller principal - rather than a higher coupon.
+**Grades E-G: withdraw or restructure.** Losses of 10–15% per dollar lent are not a pricing gap, they're a product problem. Critically, **raising rates further is unlikely to help.** Higher pricing disproportionately deters the better borrowers within a risk band, leaving a worse residual pool; the default rate rises to meet the new rate (adverse selection). The remedy is selection, not price. If the segment is to be served at all, it needs a different instrument: secured lending, co-signers, or smaller principal rather than a higher coupon.
 
 ## Limitations
 
