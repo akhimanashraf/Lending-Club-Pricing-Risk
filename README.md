@@ -40,6 +40,8 @@ Lending Club assigns each loan a grade from A (safest) to G (riskiest) and charg
 
 Both rise with grade, but not together: from A to G the interest rate roughly quadruples while the default rate rises more than tenfold. The gap between the two lines is the shortfall in compensation.
 
+**[Interactive Tableau dashboard →](https://public.tableau.com/app/profile/akhiman.ashraf/viz/LendingClubPricingRisk/PricingRiskbyGrade)**
+
 ## Recommendation
 
 **Grades A-C: continue.** Profitable, though C (1.02) is thin enough that a modest downturn would flip it negative. Worth monitoring.
