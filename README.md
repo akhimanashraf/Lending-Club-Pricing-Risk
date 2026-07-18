@@ -1,6 +1,6 @@
 # Does Lending Club's Interest Rate Compensate for Default Risk?
 
-**One-line summary:** An analysis of 44,006 resolved Lending Club loans showing that realised returns turn negative below grade C - and that repricing is unlikely to fix it.
+**One-line summary:** An analysis of 44,006 resolved Lending Club loans showing that realised returns turn negative below grade C and that repricing is unlikely to fix it.
 
 ## Business Question
 
