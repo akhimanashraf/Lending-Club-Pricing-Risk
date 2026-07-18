@@ -34,7 +34,7 @@ Lending Club assigns each loan a grade from A (safest) to G (riskiest) and charg
 
 - **Break-even sits between grades C and D.** Every loan graded D or below returned less capital than was advanced.
 - **The pricing model recognises risk but under-prices it.** Grade G is charged ~4× grade A's interest rate, yet defaults ~10.7× as often. Risk scales far faster than price.
-- **The crude comparison overstates the problem.** Comparing annual rates to lifetime default rates suggested grades B-G were all loss-making. Accounting for term and partial recovery shows B and C are in fact profitable - which materially changes the recommendation.
+- **The crude comparison overstates the problem.** Comparing annual rates to lifetime default rates suggested grades B-G were all loss-making. Accounting for term and partial recovery shows B and C are in fact profitable, which materially changes the recommendation.
 
 ![Interest rate vs default rate by grade](rate_vs_default.png)
 
@@ -44,9 +44,9 @@ Both rise with grade, but not together: from A to G the interest rate roughly qu
 
 **Grades A-C: continue.** Profitable, though C (1.02) is thin enough that a modest downturn would flip it negative. Worth monitoring.
 
-**Grade D: fix, don't cut.** At 0.964 it is only marginally underwater. The lever is *underwriting*, not price - tighten the criteria that place borrowers into D so that stronger applicants migrate to C and the rest are declined.
+**Grade D: fix, don't cut.** At 0.964 it is only marginally underwater. The lever is *underwriting*, not price; tighten the criteria that place borrowers into D so that stronger applicants migrate to C and the rest are declined.
 
-**Grades E-G: withdraw or restructure.** Losses of 10–15% per dollar lent are not a pricing gap, they're a product problem. Critically, **raising rates further is unlikely to help.** Higher pricing disproportionately deters the better borrowers within a risk band, leaving a worse residual pool - the default rate rises to meet the new rate (adverse selection). The remedy is selection, not price. If the segment is to be served at all, it needs a different instrument - secured lending, co-signers, or smaller principal - rather than a higher coupon.
+**Grades E-G: withdraw or restructure.** Losses of 10–15% per dollar lent are not a pricing gap, they're a product problem. Critically, **raising rates further is unlikely to help.** Higher pricing disproportionately deters the better borrowers within a risk band, leaving a worse residual pool; the default rate rises to meet the new rate (adverse selection). The remedy is selection, not price. If the segment is to be served at all, it needs a different instrument: secured lending, co-signers, or smaller principal - rather than a higher coupon.
 
 ## Limitations
 
